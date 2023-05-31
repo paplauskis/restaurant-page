@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadContact: () => (/* binding */ loadContact)\n/* harmony export */ });\nconst loadContact = (load) => {\n  load.innerHTML = `<div class=\"contact\">\n  <h4>Have questions?</h4>\n  <h4>Want to book your spot?</h4>\n  <h4>Contact us</h4>\n  <br>\n  <p>+37064616969</p>\n  <p>info@wickedwok.com</p>\n  <p>46, Salako Street, Oluyole Estate, Ibadan</p>\n</div`\n}\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadContact: () => (/* binding */ loadContact)\n/* harmony export */ });\nconst loadContact = (load) => {\n  load.innerHTML = `<div class=\"contact\">\n  <h4>Have questions?</h4>\n  <h4>Want to book your spot?</h4>\n  <h4>Contact us</h4>\n  <br>\n  <p>+37064616969</p>\n  <p>info@wickedwok.com</p>\n  <p>46, Salako Street, Oluyole Estate</p>\n</div`\n}\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
 
 /***/ }),
 
