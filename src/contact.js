@@ -6,6 +6,6 @@ export const loadContact = (load) => {
   <br>
   <p>+37064616969</p>
   <p>info@wickedwok.com</p>
-  <p>46, Salako Street, Oluyole Estate, Ibadan</p>
+  <p>46, Salako Street, Oluyole Estate</p>
 </div`
 }
