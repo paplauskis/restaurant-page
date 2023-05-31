@@ -80,12 +80,59 @@ img {
   padding: 0px 20px;
 }
 
-#content > img {
+#load > img {
   position: absolute;
   width: 800px;
   top: 75px;
   right: 0;
 }
-/* IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-MENU.JS */
 
+/*MENU.JS */
+
+.menu {
+  color: azure;
+  padding: 30px 40px;
+}
+
+.menu > h2 {
+  margin-top: 40px;
+}
+
+.dishes {
+  display: flex;
+  gap: 90px;
+  margin-bottom: 70px;
+}
+
+.dishes > .dish-item > h4,
+.dishes > .dish-item > p {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.dishes > .dish-item {
+  background-color: rgb(136, 136, 121);
+  width: 17vw;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.dishes > .dish-item:hover {
+  transform: translateY(-20px);
+}
+
+.dishes > .dish-item > img {
+  width: 17vw;
+}
+
+/*CONTACT.JS */
+
+.contact  {
+  background-color: rgb(136, 136, 121);
+  margin: auto;
+  width: 20vw;
+  border-radius: 25px;
+  padding: 30px;
+  text-align: center;
+  margin-top: 10vh;
+}
