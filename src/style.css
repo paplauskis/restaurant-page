@@ -9,6 +9,16 @@ body {
   margin: 0;
 }
 
+@keyframes fadeIn {  
+  from {  
+      opacity:0;  
+  }  
+
+  to {  
+      opacity:1;  
+  }  
+}
+
 .nav-bar img {
   width: 100px;
 }
@@ -19,6 +29,9 @@ body {
   justify-content: space-between;
   color: black;
   box-shadow: 0px 9px 9px 0px rgb(0, 0, 0);
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in;
+  animation-fill-mode: forwards;
 }
 .logo {
   display: flex;
@@ -38,14 +51,15 @@ body {
   width: 60px;
   height: 50px;
   padding: 0;
-  transition: 0.4s;
   font-family: 'Nunito', sans-serif;
   font-weight: 900;
+  transition: 0.4s;
 }
 
 .links > button:hover {
   cursor: pointer;
   border-bottom: 3px solid rgb(255, 0, 0);
+  transform: translateY(-3px);
 }
 
 .title {
@@ -60,12 +74,15 @@ body {
   justify-content: center;
   margin-left: 10vw;
   font-family: 'Nunito', sans-serif;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in;
+  animation-fill-mode: forwards;
 }
 
 .description > div {
   background-color: rgb(136, 136, 121);
   border-radius: 25px;
-  transition: 0.5s;
+  transition: 0.8s;
   width: 600px;
   box-shadow: 0px 8px 8px 0px rgb(0, 0, 0);
 }
@@ -92,6 +109,9 @@ body {
   top: 75px;
   right: 0;
   box-shadow: -5px 7px 9px 0px rgb(0, 0, 0);
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in;
+  animation-fill-mode: forwards;
 }
 
 /*MENU.JS */
@@ -100,6 +120,9 @@ body {
   color: azure;
   padding: 30px 40px;
   font-family: 'Nunito', sans-serif;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in;
+  animation-fill-mode: forwards;
 }
 
 .menu > h2 {
@@ -122,7 +145,7 @@ body {
   background-color: rgb(136, 136, 121);
   width: 17vw;
   border-radius: 10px;
-  transition: 0.4s;
+  transition: 0.8s;
   box-shadow: 0px 7px 10px 2px rgb(0, 0, 0)
 }
 
@@ -140,10 +163,14 @@ body {
   background-color: rgb(136, 136, 121);
   margin: auto;
   width: 20vw;
+  min-width: 300px;
   border-radius: 25px;
   padding: 30px;
   text-align: center;
   margin-top: 10vh;
   font-family: 'Nunito', sans-serif;
   box-shadow: 0px 5px 10px 0px rgb(0, 0, 0);
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in;
+  animation-fill-mode: forwards;
 }
